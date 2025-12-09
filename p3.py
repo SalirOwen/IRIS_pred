@@ -49,4 +49,5 @@ if st.button('進行預測'):
     X = [[se1, se2, se3, se4]]
     y_pred = model.predict(X)
     #st.write(y_pred)
-    st.success(f"####預測的IRIS品種為:{labels[y_pred[0]]}")
+
+    st.success(f"#### 預測的IRIS品種為:{labels[y_pred[0]]}")
